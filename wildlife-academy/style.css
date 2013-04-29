@@ -1,0 +1,98 @@
+body, html
+{
+	margin: 0;
+	padding: 0;
+}
+
+img
+{
+	border: 0;
+}
+
+.control-bar
+{
+	color: #fff;
+	margin: 0;
+	padding: 1px 5px;
+	font-size: 18px;
+	background-color: #88c;
+	background: -webkit-gradient(linear, left bottom, right bottom, from(#44b), to(#cce));
+	background: -moz-linear-gradient(left,  #44b,  #cce);
+	filter:progid:DXImageTransform.Microsoft.DropShadow(color='#ffffff',offX='0',offY='0') progid:DXImageTransform.Microsoft.gradient(GradientType=1, StartColorStr='#4444bb', EndColorStr='#ccccee');
+}
+
+	.control-bar a
+	{
+		color: #fff;
+		text-decoration: none;
+		float: right;
+	}
+
+form .field
+{
+	margin: 2px 5px;
+	background-color:#eee;
+}
+	form .field label
+	{
+		float: left;
+		width: 150px;
+		text-align:;
+		padding-right: 5px;
+		font-weight: bold;
+	}
+
+.editor, .list
+{
+	width: 50%;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-moz-box-shadow: 3px 3px 3px #000;
+	-webkit-box-shadow: 3px 3px 3px #000;
+	box-shadow: 3px 3px 3px #000;
+	background-color:#eee;
+}
+
+	.editor p, .list p
+	{
+		margin: 5px;
+		padding: 0;
+	}
+
+	.editor form, .list form
+	{
+		margin: 5px;
+	}
+
+	.editor h2, .list h2
+	{
+		color: #fff;
+		margin: 0;
+		padding: 1px 5px;
+		font-size: 18px;
+		background-color: #88c;
+		background: -webkit-gradient(linear, left bottom, right bottom, from(#44b), to(#cce));
+		background: -moz-linear-gradient(left,  #44b,  #cce);
+		filter:progid:DXImageTransform.Microsoft.DropShadow(color='#ffffff',offX='0',offY='0') progid:DXImageTransform.Microsoft.gradient(GradientType=1, StartColorStr='#4444bb', EndColorStr='#ccccee');
+	}
+	
+		.editor h2 img, .list h2 img
+		{
+			vertical-align: middle;
+		}
+	
+		.list li img
+		{
+			vertical-align: middle;
+			float:right;
+			padding:5px;
+		}
+
+	.list .list,.list .editor,.editor .list
+	{
+		width: auto;
+		margin: 5px 10px 10px 5px;
+	}
