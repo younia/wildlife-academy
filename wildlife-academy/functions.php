@@ -1,7 +1,7 @@
 <?php
 // Connect to the database
 //mysql_connect('localhost','root','root') or die(mysql_error());
-mysql_connect('',','') or die(mysql_error());
+mysql_connect('','','') or die(mysql_error());
 
 //mysql_select_db('homework') or die(mysql_error());
 mysql_select_db('newc_academy') or die(mysql_error());
